@@ -1,0 +1,123 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    height: 30px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    position: fixed;
+}
+
+body{
+    background-color: #333;
+}
+
+#header-plchldr{
+    height: 70px;
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.menu-opt a{
+    color: #fff !important;
+    border-radius: 5px;
+    background-color: rgb(90, 90, 90);
+    padding: 10px;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.presentation-content{
+    display: flex;
+    position: relative;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #333;
+    z-index: 1;
+    height: 400px;
+    width: 50%;
+    overflow: hidden;
+}
+
+/* Estilos para la sección de presentación */
+.presentation {
+    position: relative;
+    height: 600px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.presentation-text{
+    flex:1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffffcc;
+    margin-right: 10px;
+}
+
+.presentation-img{
+    flex:1;
+    max-width: 50%;
+    margin-left: 10px;
+}
+
+.presentation-img img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.animated-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    animation-name: cambioDeColor;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    z-index: -1;
+}
+
+@keyframes cambioDeColor {
+    0% {
+      background-color: rgb(139, 33, 33);
+    }
+    25% {
+      background-color: rgb(95, 0, 133);
+    }
+    50% {
+      background-color: rgb(14, 14, 180);
+    }
+    75% {
+        background-color: rgb(95, 0, 133);
+    }
+    100% {
+          background-color: rgb(139, 33, 33);
+      }
+  }
+
+/* Estilos para la sección de tecnologías */
+.technologies {
+    padding: 50px 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilos para el formulario de contacto */
+.contact-form {
+    padding: 50px 0;
+}
