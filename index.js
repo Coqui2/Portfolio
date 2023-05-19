@@ -18,15 +18,15 @@ window.addEventListener('DOMContentLoaded', function() {
   });
 
 const technologies = [
-    {icon : "CsharpIcon.png",
+    {icon : "Images/CsharpIcon.png",
     name : "C#"},
-    {icon : "jsicon.png",
+    {icon : "Images/jsicon.png",
     name : "JavaScript"},
-    {icon : "reacticon.png",
+    {icon : "Images/reacticon.png",
     name : "ReactJS"},
-    {icon : "c++Icon.png",
+    {icon : "Images/c++Icon.png",
     name : "C++"},
-    {icon : "dotNetIcon.png",
+    {icon : "Images/dotNetIcon.png",
     name : ".NET"}];
 
 let technologiesSection = document.getElementById('icon-list');
@@ -44,14 +44,14 @@ technologiesSection.innerHTML = technologiesContent;
 const projects = [
     {name : "Gestor de Torneos - C++",
     github : "https://github.com/Coqui2/Gestor-de-Torneos-de-futbol",
-    img: "gestorTorneos.png"},
+    img: "Images/gestorTorneos.png"},
     {name : "App Catalogo de Productos - WinForms .NET",
     github : "https://github.com/Coqui2/tp-winform-equipo-7",
-    img: ""},
+    img: "Images/Tpwinform.png"},
     {name : "Telegram Bot Cortes de Luz - NodeJS",
     github : "https://github.com/Coqui2/TelegramBotCortesDeLuz",
-    img: "Telegrambot.png"},
+    img: "Images/Telegrambot.png"},
     {name : "CRUD system with REST API - ReactJS/ExpressJS/MySQL/NodeJS/MUI",
-    github : "",
-    img: "ImitacionGForms.png"},
+    github : "https://github.com/Coqui2/G-Forms-Imitation",
+    img: "Images/ImitacionGForms.png"},
 ];
