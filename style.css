@@ -171,7 +171,36 @@ nav ul li {
     margin-bottom: 40px;
 }
 
+#technologies-txt2{
+    font-size: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+    text-align: center;
+}
+
 #icon-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#projects{
+    padding: 50px 0;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#projects-txt{
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+    margin-bottom: 40px;
+}
+
+#projects-list{
     display: flex;
     justify-content: center;
     align-items: center;
