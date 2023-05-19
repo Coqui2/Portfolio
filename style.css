@@ -95,12 +95,10 @@ nav ul li {
     flex:1;
     max-width: 50%;
     max-height: 400px;
-    margin: 10px;
     overflow: hidden;
 }
 
 .presentation-img img{
-    margin: 20px;
     width: 100%;
     height: 100%;
     object-fit: cover;
