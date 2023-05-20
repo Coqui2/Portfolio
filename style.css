@@ -204,6 +204,7 @@ nav ul li {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 #project-card{
@@ -235,6 +236,7 @@ nav ul li {
     text-align: center;
     z-index: 3;
     opacity: 0;
+    pointer-events: none;
 }
 
 #project-card:hover #project-name{
