@@ -51,7 +51,22 @@ const projects = [
     {name : "Telegram Bot Cortes de Luz - NodeJS",
     github : "https://github.com/Coqui2/TelegramBotCortesDeLuz",
     img: "Images/Telegrambot.png"},
-    {name : "CRUD system with REST API - ReactJS/ExpressJS/MySQL/NodeJS/MUI",
+    {name : "CRUD system with REST API - ReactJS/ExpressJS/ MySQL/NodeJS/MUI",
     github : "https://github.com/Coqui2/G-Forms-Imitation",
     img: "Images/ImitacionGForms.png"},
 ];
+
+let projectsSection = document.getElementById('projects-list');
+let projectsContent = "";
+
+for (let i=0;i<projects.length;i++){
+    projectsContent += `<li class="project-item">
+                          <a id="project-card" href="${projects[i].github}" target="_blank">
+                            <img id="project-img" src="${projects[i].img}" alt="${projects[i].name}">
+                            <h2 id="project-name">${projects[i].name}</h2>
+                            <div id="project-item-overlay"></div>
+                          </a>
+                        </li>`
+}
+
+projectsSection.innerHTML = projectsContent;
