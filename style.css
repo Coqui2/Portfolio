@@ -225,6 +225,8 @@ nav ul li {
 .project-item{
     list-style-type: none;
     position: relative;
+    margin-bottom: 20px;
+
 }
 
 #project-name{
@@ -251,7 +253,7 @@ nav ul li {
     object-fit:cover;
     border-radius: 5px;
     z-index: 1;
-    margin-bottom: 20px;
+    
 }
 
 #project-item-overlay{
@@ -263,6 +265,8 @@ nav ul li {
     background-color: rgba(185, 185, 185, 0.5);
     opacity: 0;
     z-index: 2;
+    margin-bottom: 20px;
+
 }
 
 #project-item-overlay:hover{
