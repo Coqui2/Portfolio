@@ -27,7 +27,10 @@ const technologies = [
     {icon : "Images/c++Icon.png",
     name : "C++"},
     {icon : "Images/dotNetIcon.png",
-    name : ".NET"}];
+    name : ".NET"},
+    {icon : "Images/MySQL.png",
+    name : "MySQL"},
+  ];
 
 let technologiesSection = document.getElementById('icon-list');
 
