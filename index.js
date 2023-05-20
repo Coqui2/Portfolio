@@ -47,7 +47,7 @@ technologiesSection.innerHTML = technologiesContent;
 const projects = [
     {name : "Gestor de Torneos - C++",
     github : "https://github.com/Coqui2/Gestor-de-Torneos-de-futbol",
-    img: "Images/gestorTorneos.png"},
+    img: "Images/GestorTorneos.png"},
     {name : "App Catalogo de Productos - WinForms .NET",
     github : "https://github.com/Coqui2/tp-winform-equipo-7",
     img: "Images/Tpwinform.png"},
